@@ -1,0 +1,23 @@
+.navbar {
+    @apply flex justify-between py-5 fixed w-full z-50;
+    background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(10px);
+}
+
+.logo {
+    @apply w-28 md:w-32 lg:w-52 text-primary;
+    text-shadow: 0 4px 10px #F15F53;
+}
+
+.navMenu {
+    @apply flex gap-20 items-center text-xl;
+}
+
+.navItem {
+    @apply border-b-2 border-transparent;
+    transition: ease-in-out 200ms;
+}
+
+.navItem:hover {
+    @apply border-b-2 border-primary;
+}

@@ -1,0 +1,21 @@
+.container {
+    @apply flex flex-col gap-10 p-10 border-2 border-primary rounded-xl;
+    box-shadow: 0 4px 40px #F15F53;
+}
+
+.details {
+    @apply text-xl;
+}
+
+.data {
+    @apply text-primary;
+}
+
+.button {
+    @apply px-10 py-2 border-2 rounded-3xl w-full bg-primary border-primary;
+    transition: all ease-in-out 200ms;
+}
+
+.button:hover {
+    box-shadow: 0 4px 40px #F15F53;
+}
